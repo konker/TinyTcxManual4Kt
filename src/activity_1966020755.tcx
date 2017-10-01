@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrainingCenterDatabase
-  xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd"
+  XSI_URI:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd"
   xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
   xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
   xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
   xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1">
+  xmlns:XSI_URI="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1">
   <Activities>
     <Activity Sport="Other">
       <Id>2017-09-08T18:35:21.000Z</Id>
@@ -12447,7 +12447,7 @@
           <ns3:LX/>
         </Extensions>
       </Lap>
-      <Creator xsi:type="Device_t">
+      <Creator XSI_URI:type="Device_t">
         <Name>vￃﾭvosmart HR</Name>
         <UnitId>3925462619</UnitId>
         <ProductID>2348</ProductID>
@@ -12460,7 +12460,7 @@
       </Creator>
     </Activity>
   </Activities>
-  <Author xsi:type="Application_t">
+  <Author XSI_URI:type="Application_t">
     <Name>Garmin Connect API</Name>
     <Build>
       <Version>
